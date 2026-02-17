@@ -9,5 +9,9 @@
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
         <TextBlock Text="Автор: Садриева Азалия" FontSize="21"/>
         <TextBlock Text="Возраст: 18 лет" FontSize="19"/>
+        <UniformGrid Columns="2" VerticalAlignment="Top" Margin="20">
+            <Button x:Name="BtnImport" Click="BtnImport_Click" Margin="0, 0, 50, 0">Импорт данных</Button>
+            <Button x:Name="BtnExport" Click="BtnExport_Click">Экспорт в Excel</Button>
+        </UniformGrid>
     </StackPanel>
 </Window>
