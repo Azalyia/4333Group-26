@@ -12,6 +12,9 @@
         <UniformGrid Columns="2" VerticalAlignment="Top" Margin="20">
             <Button x:Name="BtnImport" Click="BtnImport_Click" Margin="0, 0, 50, 0">Импорт данных</Button>
             <Button x:Name="BtnExport" Click="BtnExport_Click">Экспорт в Excel</Button>
+            <Button x:Name="BtnImportJSON" Click="BtnImportJSON_Click" Margin="0, 0, 50, 0">Импорт JSON данных</Button>
+            <Button x:Name="BtnExportWord" Click="BtnExportWord_Click">Экспорт в 
+Word</Button>
         </UniformGrid>
     </StackPanel>
 </Window>
